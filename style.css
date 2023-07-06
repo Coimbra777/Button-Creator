@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  background: #3d4251;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.container {
+  background-color: #cacbd5;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1),
+    -2px -2px -2px 0 rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 600px;
+}
+
+#controles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  background-color: #cacbd5;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2), -2px -2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.css {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  color: #d35e35;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.css span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
